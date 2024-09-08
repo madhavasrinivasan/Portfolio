@@ -1,0 +1,148 @@
+*{
+ box-sizing: border-box;
+ margin:0px;
+ padding: 0px;
+}
+
+
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-left:20px;
+    padding:20px;
+}
+
+.logo img{
+    width: 80px;
+    height:80px;
+    border-radius:50%;
+    object-fit:cover;
+    overflow:hidden;
+    margin-left:35px;
+}
+
+.nav-links  {
+     display:flex;  
+    list-style: none;
+    padding : 20px;
+    gap: 20px;
+    justify-content:flex-start;
+
+}
+
+.nav-links a{
+    color : white;
+    font-family:"Grey Qo", cursive;
+    font-size:18px;
+    text-decoration:none;
+    margin-left:35px;
+    cursor: pointer;
+}
+
+.nav-links a:hover{
+    color:blue;
+} 
+.backround{
+     /* /background: linear-gradient(to bottom, lightblue, darkblue); */
+    /* background: linear-gradient(to bottom, #000000, #434343); */
+    background:linear-gradient(to bottom, #000000,#434343);
+
+}
+.maddy{ 
+    /* background: linear-gradient(to bottom, lightblue, darkblue); */
+    /* Alternatively, use specific color codes */
+    /* background: linear-gradient(to bottom, #add8e6, #00008b); */
+    /* margin: 0; /* Remove any default margin */
+    /* height: 100vh; */ 
+      display:flex;  
+    justify-content: space-between;
+    margin-top:100px;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+/* .content img{
+ display: flex;
+ flex-wrap: wrap; 
+} */
+
+
+
+.pic img{
+    width : 500px;
+    height: 600px;
+    margin-right:40px; 
+    margin-top: 0px;
+    margin-bottom:50px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.pic img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    border-radius: 15px; /* Increase the shadow on hover */
+}
+
+@keyframes animate{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.heading{
+    font-family: "Grey Qo", cursive;
+    color: white;
+    font-size: 55pt;
+    text-shadow: 2px 2px 4px; 
+    margin-bottom:10px;
+    margin-left:20px;
+    animation: animate 2s ease-in-out;
+
+}
+
+@keyframes animate{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate{
+    font-family: "Merriweather", serif;
+    font-size:26pt;
+    color:white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    animation: animate 2s ease-in-out;
+}
+
+.content button{
+    background: linear-gradient(to right, lightblue, darkblue); /* Gradient background */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s ease;
+    margin-left: 20px;
+    
+} 
+
+button:hover {
+    background: linear-gradient(to right,darkblue,lightblue); /* Reverse gradient on hover */
+}
+
+.content a{
+    color : white;
+    font-family:"Grey Qo", cursive;
+    font-size:18px;
+    text-decoration:none;
+
+}
+
+
+
+
+
+
